@@ -11,3 +11,9 @@ loader = PyPDFLoader('./resources/kipngenokoech.pdf')
 pages = loader.load()
 
 print(len(pages))
+
+page = pages[0]
+
+print(page.page_content[0:500])
+
+print(page.metadata)
