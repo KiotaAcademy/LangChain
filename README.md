@@ -40,4 +40,3 @@ document loaders deals with the specifics of accessing and converting data.
    4. word, Powerpoint
 
 it should return a list of documents. each page returned is a document. A document contains text(`page_content`) and `metadata`
-
