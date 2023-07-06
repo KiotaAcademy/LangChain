@@ -16,6 +16,12 @@ LangChain is an open source framework for builind LLMs applications - large lang
 
 to create a 'chatGPT' with your own data you first have to figure out how to send/upload your data to the server/or to the model.
 
+you do this in three different steps:
+
+1. Document Loading
+2. Splitting
+3. Storage
+
 ### Retrieval Augmented Generation
 
 here LLMs retrieves contextual documents from an external dataset as part of its execution.
@@ -74,4 +80,6 @@ they can be used to load documents from unstructured and structured data sources
    5. stripe
    6. APify
    7. azure among others
+
+#### DOCUMENT SPLITTING
 
