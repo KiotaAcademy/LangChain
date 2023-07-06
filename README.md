@@ -28,11 +28,16 @@ so you need to load your data to a format LLM can understand
 
 document loaders deals with the specifics of accessing and converting data.
 
+> sources of your own data
+
 1. Accessing:
    1. websites
    2. Databases
    3. Youtube
    4. arXiv
+
+> formats of your own data
+
 2. Data Types
    1. PDF
    2. HTML
@@ -40,3 +45,33 @@ document loaders deals with the specifics of accessing and converting data.
    4. word, Powerpoint
 
 it should return a list of documents. each page returned is a document. A document contains text(`page_content`) and `metadata`
+
+the neccessity of document letters is to take all this different sources of information in different data type formats and load them into a standardized data format that our models can work with.
+
+#### DOCUMENT LOADERS
+
+they can be used to load documents from unstructured and structured data sources like:
+
+1. unstructured
+   1. youtube
+   2. wikipedia
+   3. twitter
+   4. arXiv
+   5. jupyter
+   6. figma
+   7. github
+   8. word
+   9. notion
+   10. powerpoint
+   11. whatsapp
+   12. slack
+   13. telegram among others
+2. structured data types
+   1. datasets
+   2. openweather
+   3. excel
+   4. Airbyte
+   5. stripe
+   6. APify
+   7. azure among others
+
