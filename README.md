@@ -83,3 +83,28 @@ they can be used to load documents from unstructured and structured data sources
 
 #### DOCUMENT SPLITTING
 
+document splitting happens after you load your data into a document format.
+
+As you split documents into smaller chunks you must ensure that you retain meaningful relationships.
+
+##### text splitters in langchain
+
+1. langchain.text_splitter.CharacterSplitter()
+
+this takes three parameters
+
+- separator
+- chunk_size
+- chunk_overlap
+- length_function
+
+text splitters in langCHain have a:
+
+1. create documennt - create documents from a list of texts
+2. split_documents - split documents
+
+##### types of splitters (langchain.text_splitter)
+
+1. characterTextSplitter - implementation of splitting texts that looks at characters
+2. MarkdownTextHeaderSplitter - implementation of splitting markdown files based on specific headers
+3. 
