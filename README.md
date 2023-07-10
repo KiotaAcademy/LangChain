@@ -107,4 +107,17 @@ text splitters in langCHain have a:
 
 1. characterTextSplitter - implementation of splitting texts that looks at characters
 2. MarkdownTextHeaderSplitter - implementation of splitting markdown files based on specific headers
-3. 
+3. TokenTextSplitter() - implementation of splitting texts that look like tokens
+4. SentenceTransformersTokenTextSplitter - implementation of splitting texts that look like tokens
+5. RecursiveCharacterTextSplitter - implementation of splitting texts that looks at characters and recursively tries to split by different characters to find one that works.
+6. Language() - for CPP, Python, Ruby, Markdown...e.t.c
+7. NLTKTextSplitter() - implementation of splitting texts that looks at sentences using NLTK - Natural language tool kit.
+8. SpacyTextSplitter() - implementation of splitting texts that looks at sentences using Spacy
+
+this text splitters vary across:
+
+1. how they split the chunks
+2. what characters go into chunks
+3. how they measure the length of the chunks - is it by characters or by tokens
+4. maintaining metadata
+
