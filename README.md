@@ -120,4 +120,3 @@ this text splitters vary across:
 2. what characters go into chunks
 3. how they measure the length of the chunks - is it by characters or by tokens
 4. maintaining metadata
-
